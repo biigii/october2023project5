@@ -1,42 +1,18 @@
-.block {
-  background-color: lightblue;
+body {
+  /* background-color: #f99; */
 }
-
-
-/* 0 1 1 */
-.block h2 {
-    text-align: center;
-}
-
-/* 0 0 1 */
-h2 {
-  text-align: left;
-}
-
-body main section.block h2.block__heading {
-  text-align: right;
-}
-
-.block__heading {
-  text-align: center;
-}
-
-.block p.text {
-  color: red;
-  color: green;
-}
-
-/* 0 2 1 */
-.block button.btn {
-  font-size: 30px;
-  font-size: bold;
-}
-
-.block .btn-info {
-  background-color: blue;
-  color: white
-}
-
-.block .btn-danger {
-  background-color: red;
+h1 {
+  /* background-color: purple; */
+  /* background-color: rgba(120, 0, 100, 1); */
+  /* hexadecimal values */
+  /* color: #0000ff; */
+  /* opacity ranges from 0 to 1 */
+  opacity: 1;
+  /* RGB */
+  /* color: rgb(255, 0, 0); */
+  /* color: rgba(255, 0, 0, 0.5); */
+  /* HSL Hue saturation and lightness*/
+  /* hue is a value between 0 and 360 */
+  color: hsl(180, 100%, 50%);
+  color: #3131aa;
 }
