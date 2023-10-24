@@ -1,18 +1,34 @@
-body {
-  /* background-color: #f99; */
+/* lengths */
+
+/* absolute length and relative lengths */
+
+/* px pixel which is 1/96th of an inch */
+
+html {
+  /* font-size: 16px; */
 }
+
 h1 {
-  /* background-color: purple; */
-  /* background-color: rgba(120, 0, 100, 1); */
-  /* hexadecimal values */
-  /* color: #0000ff; */
-  /* opacity ranges from 0 to 1 */
-  opacity: 1;
-  /* RGB */
-  /* color: rgb(255, 0, 0); */
-  /* color: rgba(255, 0, 0, 0.5); */
-  /* HSL Hue saturation and lightness*/
-  /* hue is a value between 0 and 360 */
-  color: hsl(180, 100%, 50%);
-  color: #3131aa;
+  /* font-size: 96px; */
+  /* width and height */
+  /* em, rem */
+  /* em = set the fontsize against the html fontsize */
+  /* font-size: 2em; */
+  /* 2 x 16px(html font size) */
+}
+
+h2 {
+  font-size: 2em;
+}
+
+.block {
+  font-size: 40px;
+}
+
+p {
+  /* html fontsize ois 16px . 1em = 1 x 16px */
+  font-size: 1rem;
+  /* font-size: 24px; */
+  /* width: 10em;
+  height: 20em; */
 }
