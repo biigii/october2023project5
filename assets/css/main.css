@@ -1,0 +1,42 @@
+.block {
+  background-color: lightblue;
+}
+
+
+/* 0 1 1 */
+.block h2 {
+    text-align: center;
+}
+
+/* 0 0 1 */
+h2 {
+  text-align: left;
+}
+
+body main section.block h2.block__heading {
+  text-align: right;
+}
+
+.block__heading {
+  text-align: center;
+}
+
+.block p.text {
+  color: red;
+  color: green;
+}
+
+/* 0 2 1 */
+.block button.btn {
+  font-size: 30px;
+  font-size: bold;
+}
+
+.block .btn-info {
+  background-color: blue;
+  color: white
+}
+
+.block .btn-danger {
+  background-color: red;
+}
