@@ -1,34 +1,76 @@
-/* lengths */
-
-/* absolute length and relative lengths */
-
-/* px pixel which is 1/96th of an inch */
-
-html {
-  /* font-size: 16px; */
+/* html {
+  height: 100%;
 }
 
-h1 {
-  /* font-size: 96px; */
-  /* width and height */
-  /* em, rem */
-  /* em = set the fontsize against the html fontsize */
-  /* font-size: 2em; */
-  /* 2 x 16px(html font size) */
+body {
+  height: 100%;
+} */
+
+/* html, 
+body {
+  height: 100%;
+} */
+
+.box {
+  background-color: #10c9e1;
+  /* height: 50%; */
+  height: 50vh;
+  width: 50vw;
 }
 
-h2 {
-  font-size: 2em;
-}
-
-.block {
-  font-size: 40px;
+nav.navigation a {
+  /* display: inline; */
+  /* display: block; */
+  /* opacity: 0; */
+  /* display: none; */
 }
 
 p {
-  /* html fontsize ois 16px . 1em = 1 x 16px */
-  font-size: 1rem;
-  /* font-size: 24px; */
-  /* width: 10em;
-  height: 20em; */
+  /* display: inline-block; */
 }
+
+/* what is the box model? */
+
+/* .block {
+  width: 400px;
+  height: 300px;
+  margin: 20px;
+  padding: 20px;
+  border: 10px solid;
+} */
+
+.parent {
+  width: 75%;
+  height: 400px;
+  background-color: #e6ba35;
+}
+
+.child {
+  width: 50%;
+  height: 200px;
+  /* overflow: scroll; */
+  background-color: #d93333;
+  color: #fff;
+}
+
+main {
+  display: block;
+  /* width: 75%; */
+}
+
+.block {
+  display: block;
+  /*  block elements have width of 100% and their 
+  height is determined by their content */
+  background-color: #f99;
+  /* relative lengths , they are relative to something */
+  width: 100%;
+  /* width: 50%; */
+}
+
+.link {
+  /* width is decided by its content */
+  display: inline;
+  background-color: #00f;
+}
+
